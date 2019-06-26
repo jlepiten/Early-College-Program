@@ -1,0 +1,31 @@
+p {
+  font-family: URW Chancery L, cursive;
+  font-size: 30px;
+  padding-left: 50px;
+}
+body {
+background-color: #ff9999;
+color:  ##cc99ff;
+text-align: center;
+/* list-style-position: inside; */
+}
+
+h3, h1 {
+color: ##660000
+}
+
+span {
+color: #660033
+}
+
+img {
+width: 600px;
+height:500px;
+}
+
+.col{
+  width: 49%;
+  display: inline-block;
+  height: 100%;
+  float: left;
+}

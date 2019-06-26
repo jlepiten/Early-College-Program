@@ -1,0 +1,21 @@
+body {
+  background-color: violet;
+  color:Darkblue;
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+h3, h1 {
+  color: Darkviolet;
+}
+
+span {
+  color: yellow;
+}
+
+img {
+  width: 400px;
+  height:500px;
+}
+ul,ol {list-style-position: inside;}

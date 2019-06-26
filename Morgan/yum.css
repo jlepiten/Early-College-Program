@@ -1,0 +1,27 @@
+body {
+background-color: #f7f7f7;
+color: #585b82;
+text-align: center;
+list-style-position: inside;
+}
+
+h1{
+  color: #53b3cb
+}
+
+h2, h3 {
+  color: #53b3cb;
+  padding:50px;
+}
+
+h3 {
+  line-height: 300%;
+}
+
+.col{
+  display:inline-block;
+  width:33%;
+  height:100%;
+  text-align: center;
+  float:left;
+}

@@ -1,0 +1,34 @@
+body{
+text-align: center;
+
+color:#AB0000 ;
+
+
+}
+ul,ol{
+  display:inline;
+
+}
+img{
+  position: inline;
+
+}
+.profile{
+  transform: rotate(90deg);
+}
+.list{
+  display:inline-block;
+  vertical-align: top;
+width: 300px;
+
+}
+
+.bg {
+  opacity: 0.3;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}

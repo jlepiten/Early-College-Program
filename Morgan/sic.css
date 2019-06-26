@@ -1,0 +1,22 @@
+body {
+background-color: #f7f7f7;
+color: #585b82;
+text-align: center;
+list-style-position: inside;
+font-family: Impact,fantasy;
+}
+
+h3, h1 {
+  color: #ed5062;
+}
+
+p {
+  color: #303249;
+}
+
+span{
+  color: #9db7ab;
+}
+img{
+  width: 600px; height: 500px;
+}

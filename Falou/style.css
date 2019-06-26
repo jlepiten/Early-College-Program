@@ -1,0 +1,44 @@
+body{
+text-align:center;
+list-style-position: inside;
+background-color: #87CEFA;
+color:black;
+border:5px solid black;
+}
+
+h3,h1 {
+color:00ffff;
+}
+
+span {
+  color:yellow
+}
+
+img{
+  width:400px;
+  height:250px;
+}
+
+<img>{
+display: inline;
+
+}
+
+body {
+  background-image: url("Hattori.gif")
+  background-size:100px 200px;
+}
+
+
+
+.column {
+  width: 250px;
+ display:inline-block;
+ margin-left: auto;
+ margin-right: auto;
+  padding: 5px;
+}
+
+body {
+  font-size:20px;
+}

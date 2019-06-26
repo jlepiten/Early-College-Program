@@ -1,0 +1,21 @@
+body {
+background-image: url("https://ksassets.timeincuk.net/wp/uploads/sites/55/2018/05/Main-Pub-NEW_Photo-Credit-Jimmy-Fontaine-920x584.jpg");
+color:blue;
+text-align:center;
+list-style-position: inside;
+}
+
+h2,h1 {
+  color:00ffff;
+}
+
+ul,ol{
+     display::inline;
+
+}
+
+.list{
+  display:inline-block;
+  vertical-align: :top;
+  width: 270px;
+}

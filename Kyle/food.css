@@ -1,0 +1,21 @@
+body{
+  background-color: #ff9980;
+  color: #000000;
+  text-align: left;
+}
+img{
+  width: 500px;
+  height: 500px;
+}
+p{
+  text-align: left;
+  width: 49%;
+  display: inline-block;
+  height: 100%;
+  border: 3px solid black;
+}
+.col{
+text-align: center;
+display: inline-block;
+width: 30%;
+}

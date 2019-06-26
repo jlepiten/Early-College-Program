@@ -1,0 +1,22 @@
+body {
+ color:#9511A9
+}
+
+
+p {
+  text-align: center;
+}
+
+.list {
+  display: inline-block;
+  vertical-align top;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+}
