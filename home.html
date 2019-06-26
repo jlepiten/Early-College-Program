@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  </head>
+  <body>
+    <header class="w3-container w3-black">
+      <h1>Early College Menus</h1>
+    </header>
+
+    <div class = "w3-content w3-section">
+      <img class = "slideShow w3-animate-fading" src="entree.png">
+      <img class = "slideShow w3-animate-fading" src = "teriyaki.jpg">
+    </div>
+
+    <div class = "row">
+      <div class = "column">
+        <h2><strong>Entrees</strong></h2>
+        <a href="home.html">Sushi (Amani)</a>
+        <br>
+        <a href = "home.html">Teriyaki Chicken (Kyle)</a>
+        <br>
+        <a href = "home.html"> Salmon (Drevin)</a>
+        <br>
+        <a href = "home.html"> Shrimp Fried Rice (Vela)</a>
+        <br>
+        <a href = "home.html"> Baked Chicken (DeMarcus)</a>
+        <br>
+        <a href = "home.html"> Egg Rolls (Joss)</a>
+        <br>
+        <a href = "home.html"> Homey Walnut Shrimp (Darren)</a>
+      </div>
+      <div class = "column">
+        <h2><strong>Desserts</strong></h2>
+        <a href = "home.html"> Triple Chocolate Brownie (Briana)</a>
+        <br>
+        <a href = "home.html"> Flan (Dominic)</a>
+        <br>
+        <a href = "home.html"> Choco Chip Cookies (Jasmine) </a>
+
+      </div>
+      <div class = "column">
+        <h2><strong>Beverages</strong></h2>
+        <a href = "home.html"> Kit-Kat Milkshake (Morgan) </a>
+        <br>
+        <a href = "home.html"> Oreo Milkshake (Falou) </a>
+
+      </div>
+    </div>
+    <script>
+      var index = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slideShow");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        index++;
+        if (index > x.length) {
+          index = 1;
+        }
+
+        x[index-1].style.display = "block";
+        setTimeout(carousel, 9000);
+      }
+
+    </script>
+
+  </body>
+</html>

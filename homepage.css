@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+img {
+  height: 300px;
+  width: 100%;
+  border: 1px solid #021a40;
+  background-color:#ff0;
+
+
+}
+
+a {
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 330px;
+  background-color: pink;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
